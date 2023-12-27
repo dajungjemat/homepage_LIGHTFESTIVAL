@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+#container{
+    width: 1000px;
+    height: 650px;
+    background-color: lightblue;
+}
+
+#header{
+    float: left;
+    width: 200px;
+    height: 100%;
+    background-color: lightcoral;
+}
+#slide{
+    float: left;
+    width: 800px;
+    height: 350px;
+    background-color: lightcyan;
+}
+
+#content{
+    float: left;
+    width: 800px;
+    height: 200px;
+    background-color: lightgoldenrodyellow;
+}
+
+#footer{
+    float: left;
+    width: 800px;
+    height: 100px;
+    background-color: lightgray;
+}
+/* ==================================================================================== */
