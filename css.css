@@ -75,8 +75,11 @@ a{
     font-weight: bold;
 }
 
-#menu ul li ul{
+#menu > ul > li > ul li{
     display: none;
+}
+#menu > ul > li > ul{
+        overflow: hidden;
 
 }
 
@@ -91,7 +94,7 @@ a{
     color: rgb(248, 169, 51);
 }
 
-#menu ul li:hover ul{
+#menu ul li:hover ul li{
     display: block;
     animation: subDown 1s;
 }
